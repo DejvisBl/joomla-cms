@@ -31,7 +31,7 @@ abstract class BannerHelper
 	{
 		$urlCheck = explode('?', $url);
 
-		if (preg_match('#\.(?:bmp|gif|jpe?g|png|webp)$#i', $urlCheck[0]))
+		if (preg_match('#\.(?:bmp|gif|jpe?g|png|webp|svg)$#i', $urlCheck[0]))
 		{
 			return true;
 		}
